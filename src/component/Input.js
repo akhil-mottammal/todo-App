@@ -1,14 +1,15 @@
 import React from 'react';
 import './Input.css'
 
-function Input({input,setInput,list,setlist}) {
+function Input({input,setInput,lists,setlists}) {
     
 
     const clickHandler=(e)=>{
         
-        setlist([...list,{text:input}])
+        setlists([...lists, {id:Math.random(),text:input}])
         setInput('')
-        console.log(list)
+        
+        
     }
         
     return (
