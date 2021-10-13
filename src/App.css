@@ -1,0 +1,16 @@
+body{
+  background-color:rgb(248, 124, 201) ;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: monospace;
+  align-items: center;
+  
+}
+.todo{
+
+  
+}
+

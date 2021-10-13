@@ -1,0 +1,25 @@
+input{
+    width: 300px;
+    height: 34px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+}
+button:hover{
+    color: green;
+}
+.input{
+    display: flex;
+    text-align: center;
+    background-color: rgb(145, 131, 131);
+    padding: 5px;
+   
+}
